@@ -1,0 +1,64 @@
+<!-- Skills -->
+       <section class="skills" id="skills">
+        <div class="heading">
+            <h2>SKILLS</h2>
+        </div>
+        <!-- Skills Content -->
+        <div class="skills-container">
+            <div class="bars">
+                <!-- Box 1 -->
+                <div class="bars-box">
+                    <span class="skills__name">Programming Languages : &nbsp;</span>
+                            <a href="" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="angular" width="40" height="40" /> </a>
+                                
+                            <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="angular" width="40" height="40" /> </a>
+                            <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="angular" width="30" height="40" /> </a>&nbsp;
+                            <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://gitlab.schukai.com/uploads/-/system/group/avatar/139/javascript.png" alt="angular" width="40"  /> </a>
+                            <a href="" target="_blank" rel="noreferrer"> <img src="https://icon-library.com/images/java-icon-png/java-icon-png-2.jpg" alt="angular" width="50"  /> </a>
+                </div>
+                <!-- Box 2 -->
+                
+                <div class="bars-box">
+                    <span class="skills__name">Database Technologies :</span>
+                            <a href="" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303251/mysql-logo.svg" alt="angular" width="70" height="40" /> </a>&nbsp;
+                            <a href="" target="_blank" rel="noreferrer"> <img src="https://firebase.google.com/static/images/brand-guidelines/logo-logomark.png" alt="angular" width="40" height="40" /> </a>&nbsp;
+                            <a href="" target="_blank" rel="noreferrer"> <img src="https://findlogovector.com/wp-content/uploads/2022/04/mongodb-logo-vector-2022.png" alt="angular" width="90" height="40" /> </a>
+                </div>
+                <!-- Box 3 -->
+                <div class="bars-box">
+                    <span class="skills__name">Data Visualization :&nbsp;</span>
+                            <a href="gds" target="_blank" rel="noreferrer"> <img src="https://www.logo.wine/a/logo/Microsoft_Excel/Microsoft_Excel-Logo.wine.svg" alt="angular" width="50" /> </a>
+                </div>
+                <!-- Box 4 -->
+                <div class="bars-box">
+                    <span class="skills__name">Libraries :&nbsp;&nbsp;&nbsp;</span>
+                            <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/67586773/105040771-43887300-5a88-11eb-9f01-bee100b9ef22.png" alt="angular" width="50" /> </a>
+                            <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/512px-Pandas_logo.svg.png" alt="angular" width="70" height="40" /> </a>&nbsp;
+                            
+                            
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="image/professional skills.gif" alt="">
+            </div>
+        </div>
+ 
+    </section>
+
+
+<!------------CSS---------->
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+  .skills-img img {
+    width: 80%;
+    padding-left: 4rem;
+    object-position: center;
+  }
+  .skills__name{
+    color: var(--text-color);
+  }
