@@ -416,10 +416,10 @@ span {
   right: -15px;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--text-color);
+  background: #fff;
 }
 .content .left-side .details .text-one a{
-  color: var(--text-color);
+  color: #fff;
 }
 .content .left-side .details{
   margin: 14px;
@@ -427,67 +427,38 @@ span {
 }
 .content .left-side .details i{
   font-size: 30px;
-  color: var(--main-color);
+  color: #fff;
   margin-bottom: 10px;
 }
 .content .left-side .details .topic{
   font-size: 18px;
   font-weight: 500;
+  color: #fff;
+}
+.content .left-side .details i{
+  font-size: 35px;
+  font-weight: 500;
+  color: var(--main-color);
 }
 .content .left-side .details .text-one,
 .content .left-side .details .text-two{
   font-size: 14px;
-  color: var(--text-color);
+  color: #fff;
 }
 .container .content .right-side{
-  width: 75%;
+  width: 50%;
   margin-left: 75px;
 }
 .content .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
-  color: var(--main-color);
-}
-.right-side .input-box{
-  height: 50px;
-  width: 100%;
-  margin: 12px 0;
-}
-.right-side .input-box input,
-.right-side .input-box textarea{
-  height: 100%;
-  width: 100%;
-  border: none;
-  outline: none;
-  font-size: 16px;
-  background: #F0F1F8;
-  border-radius: 6px;
-  padding: 0 15px;
-  resize: none;
-}
-.right-side .message-box{
-  min-height: 110px;
-}
-.right-side .input-box textarea{
-  padding-top: 6px;
-}
-.right-side .button{
-  display: inline-block;
-}
-.right-side .button input[type="button"]{
   color: #fff;
-  font-size: 18px;
-  outline: none;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 6px;
-  background: var(--main-color);
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
-.button input[type="button"]:hover{
-  background: var(--hover);
+.right-side img{
+  width: 358px;
 }
+
+
 
 @media (max-width: 950px) {
   .container{
@@ -496,8 +467,12 @@ span {
   }
   .container .content .right-side{
    width: 75%;
-   margin-left: 55px;
 }
+  .myimg{
+    display: flex;
+    justify-content: center;
+  }
+
 }
 @media (max-width: 820px) {
   .container{
@@ -630,11 +605,5 @@ span {
   }
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-  }
-  .contact-form form{
-    width: 300px;
-  }
-  .contact-button{
-    margin-left: 25%;
   }
 }
